@@ -1,0 +1,412 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #f5f5f5;  /* Light Gray */
+}
+
+.resumeBuilder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(68, 64, 64);
+  overflow-x: hidden;
+}
+
+.resume {
+  width: 90%;
+  height: auto;
+  margin: 4em 0px;
+  box-shadow: 5px 5px 20px rgb(228, 218, 218);
+}
+
+.profileSec {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  gap: 1em;
+  background: linear-gradient(to right top,
+      rgb(156, 82, 199),
+      rgb(91, 192, 255));
+}
+
+.profileSec02 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 1em;
+  background: rgb(250, 242, 242);
+ 
+}
+
+.imagbox {
+  width: 30%;
+  height: 100%;
+}
+
+.addressbox {
+  width: 30%;
+  height: auto;
+  align-self: center;
+  margin-left: 1em;
+  margin-top: 1em;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.add {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1em;
+}
+
+.summary {
+  padding: 2em 1em;
+
+  width: 70%;
+}
+
+.profileImag {
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  font-size: 26px;
+  font-weight: 500;
+
+  color: white;
+}
+
+.developer {
+  font-size: 20px;
+  
+}
+
+.introductionbox {
+  padding: 2em;
+  width: 70%;
+}
+
+.icon {
+  color: rgb(156, 82, 199);
+}
+
+.add p {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.summary>h2 {
+  color: rgb(37, 33, 33);
+  padding-bottom: 3px;
+}
+
+.summary>p {
+  line-height: 1.3em;
+  padding-right: 1em;
+}
+
+.addressbox>p {
+  padding-right: 1em;
+}
+
+.left {
+  width: 30%;
+  height: auto;
+  background: linear-gradient(to right top,
+      rgb(156, 82, 199),
+      rgb(91, 192, 255));
+  color: aliceblue;
+}
+
+.right {
+  width: 70%;
+  height: auto;
+  background: rgb(250, 242, 242);
+}
+
+.section03 {
+  width: 100%;
+  display: flex;
+}
+
+.education-box {
+  text-align: center;
+  margin: 2em 1em;
+}
+
+.line {
+  border-bottom: 2px solid white;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+.alledu {
+  margin: 1em 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Language Section */
+.Language ul {
+  list-style-type: disc;
+  padding-left: 3em;
+  margin-top: 0.7em;
+}
+
+.Language li {
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+
+.edu {
+  font-weight: 500;
+}
+
+.projectSec,
+.skillSec {
+  border-top: 3px solid rgb(172, 172, 172);
+  margin: 0px 2em;
+}
+
+.skillName  , .Work{
+  font-size: 30px;
+  margin-top: 1em;
+}
+
+.Work{
+  font-weight: 500;
+}
+
+.projectHeading {
+  margin-top: 0.4;
+}
+
+.projects,
+.skillBox {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.projectName {
+  margin-bottom: 0.5em;
+}
+
+.projectLink {
+  margin-top: 0.5em;
+}
+
+.projectLink>strong {
+  color: rgb(13, 138, 216);
+}
+
+
+.projectLink a {
+  color: #0d8ad8;
+  text-decoration: none;
+}
+.projectLink a:hover {
+  text-decoration: underline;
+  color:rgb(156, 82, 199) ;
+}
+
+
+
+.skillBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+}
+
+.skill {
+  display: flex;
+  gap: 1em;
+  width: 100%;
+}
+
+.outerBox {
+  height: 8px;
+  width: 100%;
+  background: rgb(172, 172, 172);
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.innerBox {
+  width: 95%;
+  height: 8px;
+  background-color: rgb(13, 138, 216);
+  border-radius: 10px;
+}
+
+.css {
+  width: 90%;
+}
+
+.js {
+  width: 80%;
+}
+
+.ts {
+  width: 85%;
+}
+
+.react {
+  width: 50%;
+}
+
+.next.js {
+  width: 70%;
+}
+
+.interest {
+  margin-top: 1em;
+  padding-left: 2em;
+  text-align: left;
+  font-weight: 400;
+}
+
+
+.toggle-box{
+  text-align: right ;
+
+  
+  
+}
+
+button{
+  border: none;
+  color:rgb(156, 82, 199) ;
+  font-size: 25px;
+}
+
+#toggle-project{
+  display: none;
+}
+
+.exTitle{
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.start{
+  color:rgb(156, 82, 199) ;
+}
+.para{
+  padding: 1em 0px;
+}
+
+
+@media (max-width: 400px) {
+
+  .exTitle{
+    flex-direction: column;
+   }
+ 
+
+  .profileSec {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .introductionbox{
+    align-self: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .imagbox {
+    width: 100%;
+    height: 150px;
+    background-color: inherit;
+    padding-top: 2em;
+  }
+
+  .profileImag {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 680px) {
+  .section03 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .left,
+  .right {
+    width: 100% !important;
+  }
+
+  .education-box {
+    text-align: center;
+  }
+
+  .resume {
+    width: 90%;
+    height: auto;
+  }
+
+  .profileSec02 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .addressbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 2em;
+  }
+
+  .summary {
+    width: 100%;
+  }
+}
+
+@media (max-width: 595px) {
+
+
+  .addressbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 2em;
+    margin-left: 2em;
+  }
+
+  .line {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .skillBox {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+  }
+
+  
+  .resume {
+    width: 95%;
+    margin: 2em 0px;
+    height: auto;
+  }
+}
